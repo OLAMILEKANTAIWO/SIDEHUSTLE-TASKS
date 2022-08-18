@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+#fullForm{
+    display: flex;
+    background-color: white;
+}
+.left{
+    background-image: url(./IMAGE/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    width: 40%; 
+    height:200vh;
+   }
+.image img{
+    width:25%;
+    padding-top:0.2em;
+    }
+.image{
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    font-size:1.9em;
+    margin-top:8em;
+    background: rgba(0, 0,0,0.5);
+}
+.image h2{
+    padding-top:1.1em;
+}
+.right{
+    padding-top:1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 60%;
+    margin:0.5em;
+    padding:1em;
+    font-size:1.2em;
+}
+.top span{
+    font-style: italic;
+    margin:0.1em;
+}
+.bot{
+font-style: italic;
+  margin:0;
+  padding-top:1em;
+}
+
+#form-control{
+display: flex;
+justify-content: space-between;
+margin-bottom:1em;
+padding-top:1em;
+padding-bottom:1em;
+background-color: azure;
+margin-top:1em;
+
+}
+
+.left-side{
+flex-wrap: wrap;
+}
+.right-side{
+flex-wrap:wrap ;
+}
+
+label{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:1em;
+margin:0.8em;
+}
+input{
+    width: 90%;
+    margin:0.9em;
+    padding:0.85em;
+    border:solid black;
+    border-radius:1em;
+}
+button{
+    background-color:black;
+    color: white;
+    padding:0.9em;
+    border-radius:1.3em;
+    font-size:1.1em;
+}
+.lower p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1.2em;
+    margin-top:0.9em;
+}
+
+.lower span{
+    color:blue;
+    font-weight: bold;
+}
